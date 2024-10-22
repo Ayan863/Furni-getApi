@@ -3,7 +3,7 @@ const OtherCard = ({ image, title, firstPrice, lastPrice, sale }) => {
     <div>
       <div className="cards font-[Montserrat,sans-serif] bg-white rounded-lg duration-200 p-3 flex w-[680px]">
         <img src={image} alt="phone" className="w-[271px] h-[224px]" />
-        <div>
+        <div className="container w-[50%]">
         <div className="description  text-[14px] h-[41px]">{title}</div>
         <div className="cost">
           <span className="sale text-[12px] bg-red-500 p-[3px] rounded-md text-white font-semibold">

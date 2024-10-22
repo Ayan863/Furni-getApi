@@ -19,7 +19,7 @@ const Home = () => {
       <Header/>
       <FirstSection/>
       <Slider />
-      <div className="offerItem flex gap-4 m-auto w-[93%]">
+      <div className="offerItem flex gap-4 m-auto w-[93%] flex-wrap">
         <div className="resmileshme flex bg-white border-8 border-white rounded-md m-auto">
           <img
             src={resmileshme}
@@ -93,8 +93,10 @@ const Home = () => {
       </div>
       <SliderApi url="https://6712c15c6c5f5ced6624928d.mockapi.io/products" />
       {/* <Slider /> */}
-      <p className="w-[95%] m-auto text-[20px] text-[Montserrat,sans-serif] font-semibold p-4">Super təkliflər</p>
+       <div className="super-teklifler relative z-40">
+       <p className="w-[95%] m-auto text-[20px] text-[Montserrat,sans-serif] font-semibold p-4 ">Super təkliflər</p>
       <Carousel url="https://66eba56d2b6cf2b89c5b2e2d.mockapi.io/otherProduct"/> 
+       </div>
       <p className="w-[95%] m-auto text-[20px] text-[Montserrat,sans-serif] font-semibold p-4">Mövsüm təklifləri</p>
 
       <SliderApi url="https://66eba56d2b6cf2b89c5b2e2d.mockapi.io/products"/>

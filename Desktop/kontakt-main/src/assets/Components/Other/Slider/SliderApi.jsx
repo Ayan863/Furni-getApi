@@ -27,7 +27,7 @@ const CarouselApi = (props) => {
       slidesPerView={5} 
       autoplay={{ delay: 4000, disableOnInteraction: false }}
       loop={true}
-      className="w-[95%]"
+      className="w-[95%] "
       breakpoints={{
         640: {
           slidesPerView: 1, 
@@ -48,7 +48,7 @@ const CarouselApi = (props) => {
       }}
     >
       {data && data.map((item) => (
-        <SwiperSlide key={item.id} className="flex justify-center">
+        <SwiperSlide key={item.id} className="flex justify-center relative z-50 ">
           <Card
             image={item.image}
             title={item.title}

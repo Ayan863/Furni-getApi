@@ -6,8 +6,8 @@ import Magazalar from "./assets/Components/Main/Magazalar/Magazalar"
 import Koporativ from "./assets/Components/Main/koporativ/Koporativ"
 import Smartfon from "./assets/Components/Pages/smartfon&aksesuar/Smartfon"
 import SmartQadjetler from "./assets/Components/Pages/smartQadjetler/SmartQadjetler"
-
 import Odenis from "./assets/Components/Main/odenis/Odenis"
+// import { BiBasket } from "react-icons/bi"
 
 const App = () => {
   return (
@@ -20,6 +20,7 @@ const App = () => {
       <Route path="/odenish" element={<Odenis/>} />
       <Route path="/smartfon" element={<Smartfon/>}/>
       <Route path="/smartQadjetler" element={<SmartQadjetler/>}/>
+
 
     </Routes>
     </BrowserRouter>

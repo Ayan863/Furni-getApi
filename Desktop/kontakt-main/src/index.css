@@ -22,9 +22,11 @@
   background-color: #323232;
   color: white;
 }
+
 .card:hover .other{
-
-    visibility: visible !important;
-    display: block !important;
-
+  display: block;
+  opacity: 1; 
+  /* position: absolute; */
+  z-index: 50;
+  
 }

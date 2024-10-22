@@ -13,7 +13,7 @@ const Kampaniya = () => {
         <>
         <Header/>
 
-        <section className='kampaniya'>
+        <section id='kamp' className='kampaniya'>
             <div className="cont-top">
                 <div className="cont-top-sub">
                     <span className='cont-top-text'>istədiyini seç</span>
